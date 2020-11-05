@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Inventors </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+    <ul class="menu">
+        <center>
+            <li class="link"><a href="#mycarousel"> Slide Show</a></li>
+            <li class="link"><a href="#grid">Grid</a></li>
+        </center>
+    </ul>
+    <div class="container">
+        <section id="gif">
+            <center>
+                <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_xqmxofee.json" background="transparent" speed="1" style="width: 600px; height: 450px;" loop controls autoplay></lottie-player>
+            </center>
+        </section>
+        <section id="slide show">
+            <h1> Slide Show </h1>
+            <div class="line"></div>
+            <div id="mycarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <img src="thomas%20edison.png" class="img-responsive">
+                            <div class="carousel-content">
+                                <h3> Thomas Edison
+                                    <br>
+                                    <br>
+                                    Invention: Elctric Light Bulb
+                                </h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="carl%20benz.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <h3> Carl Benz
+                                    <br>
+                                    <br>
+                                    Invention: Automobile
+                                </h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="Charles_Babbage_-_1860.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <h3> Charles Babbage
+                                    <br>
+                                    <br>
+                                    Invention: Computer
+                                </h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="George%20Washington%20Carver.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <h3> George Washington Carver- The Peanut Man
+                                    <br>
+                                    <br>
+                                    Invention: Peanut
+                                </h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="Henry-Ford.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <h3> Henry Ford
+                                    <br>
+                                    <br>
+                                    Invention: Car
+                                </h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="Orville-Wright-1910.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <h3> Wright Brothers
+                                    <br>
+                                    <br>
+                                    Invention: Aeroplane
+                                </h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="Sir_Tim_Berners-Lee_(cropped).jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <h3> Sir Tim Berners-Lee
+                                    <br>
+                                    <br>
+                                    Invention: W.W.W (World Wide Web)
+                                </h3>
+                            </div>
+                        </center>
+                    </div>
+                    <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                    <li data-target="#mycarousel" data-slide-to="3"></li>
+                    <li data-target="#mycarousel" data-slide-to="4"></li>
+                    <li data-target="#mycarousel" data-slide-to="5"></li>
+                    <li data-target="#mycarousel" data-slide-to="6"></li>
+                </ol>
+
+            </div>
+
+        </section>
+        <section id="grid">
+            <h1> Grid </h1>
+            <div class="line"></div>
+            <span><img src="thomas%20edison.png">&nbsp;<img src="carl%20benz.jpg">&nbsp;<img src="Charles_Babbage_-_1860.jpg">&nbsp;<img src="George%20Washington%20Carver.jpg"></span>
+            <br>
+            <br>
+            <span><img src="Henry-Ford.jpg">&nbsp;<img src="Orville-Wright-1910.jpg">&nbsp;<img src="Sir_Tim_Berners-Lee_(cropped).jpg"></span>
+        </section>
+
+
+    </div>
+
+</body></html>
